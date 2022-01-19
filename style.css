@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+nav ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  color: white;
+  padding: 15px 35px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+}
+input {
+  padding: 6px;
+}
+button {
+  padding: 6px;
+}
